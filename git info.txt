@@ -1,0 +1,12 @@
+git --version************git command deke check karna
+version
+
+git status****show untracked file*******in red colour text
+git add A-------------add all files and folder to stagging
+git add filename
+git add  *.java
+git add foldername
+
+
+
+

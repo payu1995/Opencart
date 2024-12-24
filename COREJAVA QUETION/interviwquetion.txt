@@ -1,0 +1,51 @@
+/*
+
+technical term-mocking
+
+employee - empid, empname, deptid, sal
+department - deptid, deptname, deptlocation
+
+Select employee.empname from employee join department on employee.deptid = department.deptid
+where deptname = 'HR' and employee.sal =
+(select max(sal) from employee where deptid = employee.deptid and 
+sal< (select max(sal) from employee where deptid = emp.deptid))
+
+ename 	eid 	sal 	dpt
+a		1		2000	001
+b		2		1000	002
+c		3		1500	003
+d		4		1700	001
+e		5		1200	002
+ 
+dptid 	name
+001		DEV
+002		HR
+003		ADMIN
+
+hamberguermenu = //a[@id='nav-hamburger-menu']
+elctroniclink = //div[contains(text(),'TV, Appliances, Electronics')]
+headphones = (//a[contains(text(),'Headphones')])[3]
+
+*/
+
+public class MyClass {
+  public static void main(String args[]) {
+      driver.get("https://www.amazon.in");
+      WebElement hambergermenu = driver.findElement(By.xpath("//a[@id='nav-hamburger-menu']"));
+      WebElement elctroniclink = driver.findElement(By.xpath("//div[contains(text(),'TV, Appliances, Electronics')]"));
+      WebElement headphones = driver.findElement(By.xpath("(//a[contains(text(),'Headphones')])[3]"));
+      hambergermenu.click();
+      Thread.sleep(2000);
+      elctroniclink.click();
+      Thread.sleep(2000);
+      
+      
+      
+   for(int i=0;i<50;i++)
+   {
+       headphones.click();
+       driver.navigate().back();
+   }
+
+}
+*/

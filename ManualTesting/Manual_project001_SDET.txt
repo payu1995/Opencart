@@ -1,0 +1,50 @@
+technical term
+-----------------------------------------
+mockup screen***********FRS document la je screenshot lvle rah tat te.(before actual software design)
+
+rampup----------team madhal koni seak leave vr asnr tr time rampup krne
+rampdown---------
+
+
+Project Introduction
+-----------------------------------------------------
+2)understanding & explore the functionality(FRS--functional requirement specification)********UNDERSTAND document requirement
+3)Estimation
+3)test plan
+4)writing test scenario
+writing test cases and review
+environment setup and build deployment
+test execution
+bug reporting and tracking
+sanity testing re-testing and regression
+test sign off
+
+project introduction
+--------------------
+project
+ecommerce product/application
+
+ecommerce
+----------------
+            login
+            search for product
+            add to cart
+            do payment
+             product will be delivered
+            return
+
+frontend--------public(internate application---in ternate)
+backend--------admin people(access only within org---intra-net
+
+Risk(problem) and mitigation(solutions)
+
+
+
+
+
+
+
+
+
+
+
